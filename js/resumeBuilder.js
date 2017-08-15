@@ -1,7 +1,7 @@
 var bio = {
 	"name" : "Shu XU",
 	"role" : " Actively seeking a job as Software Developer",
-	"welcomeMessage" : "With training in Computational Chemistry, I am graduating with my master in CS from Georgia Institute of Technology December 2017.</br> Looking forward to a career with lots of coding.",
+	"welcomeMessage" : "Graduating with Master in Computer Science from Georgia Institute of Technology December 2017.</br> Looking forward to a career with lots of coding.",
 	"image" : "images/headXu.jpg",
 	"contacts" : [{
 		"mobile" : "567-868-3827",
@@ -34,20 +34,20 @@ var projects = {
 	"project" : [{
 		"title" : "Database Management: Handyman Tool System",
 		"dates" : "Jan 2016 - May 2016",
-		"description" : "Designed and implemented a database system for handyman tool management using MySQL, HTML, Javascript and PHP;</br> API helps managers and customers to add and edit orders and reservations; </br> Users login with usernames and passwords, add, search, and check in-and-out tools;</br> Administrators add tools, edit descriptions and track payments",
+		"description" : "Designed and implemented a database system for handyman tool management using MySQL, HTML, Javascript and PHP;</br> API helps managers and customers to add and edit orders and reservations; </br> Users login with usernames and passwords, add, search, and check in-and-out tools;</br> Administrators add tools, edit descriptions and track payments Skills: PHP, MySQL, html,  EER, JavaScript.",
 		"images" : ["images/handy_screens.jpg","images/handy_EER.jpg","images/handy_phpmyadmin.jpg"]
 	},
 	{
 		"title" : "Android Apps: Tip Calculator and Grocery List App",
 		"dates" : "Aug 2016 - Dec 2016",
-		"description" : "Designed, built and tested android mobile applications using Android Studio, Java and Junit tests;</br> Tip Calculator app is for the tip calculation with split properties;</br> Grocery List Management app helps customers add grocery shopping list with check-on and check-off, as well as mange the items in the database;</br> Skills: SQLite, Java, android studio, software documentation, Junit tests",
-"images" : ["images/1.jpg","images/2.jpg","images/3.jpg","images/4.jpg"]
+		"description" : "Designed, built and tested android mobile applications using Android Studio, Java and Junit tests;</br> Tip Calculator app is for the tip calculation with split properties;</br> Grocery List Management app helps customers add grocery shopping list with check-on and check-off, as well as mange the items in the database;</br> Skills: SQLite, Java, android studio, software documentation, Junit tests.",
+"images" : ["images/app_glm.jpg","images/app_glm2.jpg","images/app_tip.jpg"]
 	},
 	{
 		"title" : "Health Informatics Age and Diagnosis Mining Project",
 		"dates" : "Jun 2017 -",
 		"description" : "Built android app to search diseases with observed symptoms;</br>Mapped the age-diagnosis relationship from eMERGE (health record database); Collaborated with Dept. of Medical Informatics at Vanderbilt;</br> Applied different algorithms in machine learning for predication;</br> Used solr and PostgreSQL for text analysis;</br> Skills: PostgreSQL, Java, android development, machine learning, API development",
-	"images" : ["images/1.jpg","images/2.jpg","images/3.jpg","images/4.jpg"]
+	"images" : ["images/1.jpg"]
 	}
 ]
 };
