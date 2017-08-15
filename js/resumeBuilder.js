@@ -35,7 +35,7 @@ var projects = {
 		"title" : "Database Management: Handyman Tool System",
 		"dates" : "Jan 2016 - May 2016",
 		"description" : "Designed and implemented a database system for handyman tool management using MySQL, HTML, Javascript and PHP;</br> API helps managers and customers to add and edit orders and reservations; </br> Users login with usernames and passwords, add, search, and check in-and-out tools;</br> Administrators add tools, edit descriptions and track payments",
-		"images" : ["images/1.jpg"]
+		"images" : ["images/handy_screens.jpg","images/handy_EER.jpg","images/handy_phpmyadmin.jpg"]
 	},
 	{
 		"title" : "Android Apps: Tip Calculator and Grocery List App",
