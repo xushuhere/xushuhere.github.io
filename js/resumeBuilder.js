@@ -35,7 +35,7 @@ var projects = {
 		"title" : "Database Management: Handyman Tool System",
 		"dates" : "2016",
 		"description" : "Designed and implemented a database system for handyman tool management using MySQL, HTML, Javascript and PHP;</br> API helps managers and customers to add and edit orders and reservations; </br> Users login with usernames and passwords, add, search, and check in-and-out tools;</br> Administrators add tools, edit descriptions and track payments",
-		"images" : ["images/1.jpg","images/2.jpg","images/3.jpg","images/4.jpg"]
+		"images" : ["images/1.jpg"]
 	},
 	{
 		"title" : "Android Apps: Tip Calculator and Grocery List App",
@@ -134,7 +134,7 @@ work.display = function() {
 projects.display = function(){
 	for(item in projects.project){
 		$("#projects").append(HTMLprojectStart);
-		var formattedTitle = HTMLprojectTitle.replace("%data%",projects.project[item].title);
+		var formattedTitle = HTMLprojectTitle.replace("%data%",item.title);
 		var formattedDates = HTMLprojectDates.replace("%data%",projects.project[item].dates);
 		var formattedDescription = HTMLprojectDescription.replace("%data%",projects.project[item].description);
 
