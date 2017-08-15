@@ -33,19 +33,19 @@ var work = {
 var projects = {
 	"project" : [{
 		"title" : "Database Management: Handyman Tool System",
-		"dates" : "2016",
+		"dates" : "Jan 2016 - May 2016",
 		"description" : "Designed and implemented a database system for handyman tool management using MySQL, HTML, Javascript and PHP;</br> API helps managers and customers to add and edit orders and reservations; </br> Users login with usernames and passwords, add, search, and check in-and-out tools;</br> Administrators add tools, edit descriptions and track payments",
 		"images" : ["images/1.jpg"]
 	},
 	{
 		"title" : "Android Apps: Tip Calculator and Grocery List App",
-		"dates" : "2017",
+		"dates" : "Aug 2016 - Dec 2016",
 		"description" : "Designed, built and tested android mobile applications using Android Studio, Java and Junit tests;</br> Tip Calculator app is for the tip calculation with split properties;</br> Grocery List Management app helps customers add grocery shopping list with check-on and check-off, as well as mange the items in the database;</br> Skills: SQLite, Java, android studio, software documentation, Junit tests",
 "images" : ["images/1.jpg","images/2.jpg","images/3.jpg","images/4.jpg"]
 	},
 	{
 		"title" : "Health Informatics Age and Diagnosis Mining Project",
-		"dates" : "2017",
+		"dates" : "Jun 2017 -",
 		"description" : "Built android app to search diseases with observed symptoms;</br>Mapped the age-diagnosis relationship from eMERGE (health record database); Collaborated with Dept. of Medical Informatics at Vanderbilt;</br> Applied different algorithms in machine learning for predication;</br> Used solr and PostgreSQL for text analysis;</br> Skills: PostgreSQL, Java, android development, machine learning, API development",
 	"images" : ["images/1.jpg","images/2.jpg","images/3.jpg","images/4.jpg"]
 	}
@@ -134,7 +134,7 @@ work.display = function() {
 projects.display = function(){
 	for(item in projects.project){
 		$("#projects").append(HTMLprojectStart);
-		var formattedTitle = HTMLprojectTitle.replace("%data%",item.title);
+		var formattedTitle = HTMLprojectTitle.replace("%data%",projects.project[item].title);
 		var formattedDates = HTMLprojectDates.replace("%data%",projects.project[item].dates);
 		var formattedDescription = HTMLprojectDescription.replace("%data%",projects.project[item].description);
 
