@@ -7,7 +7,7 @@ var bio = {
 		"mobile" : "567-868-3827",
 		"location" : "Nashville",
 		"email" : "xushuhere@gmail.com",
-		"github": "github.com/xushus"
+		"github": "github.com/xushuhere"
 	}],
 	"skills" : ["Java","C++","Python","R", "Github", "JavaScript"]
 };
