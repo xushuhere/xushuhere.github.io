@@ -163,5 +163,5 @@ projects.display();
 education.display();
 bio.display();
 
-$("#main").append(internationalizeButton);
-$("#main").append(googleMap);
+//$("#main").append(internationalizeButton);
+//$("#main").append(googleMap);
