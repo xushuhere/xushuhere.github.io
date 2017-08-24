@@ -1,6 +1,6 @@
 var bio = {
 	"name" : "Shu XU",
-	"role" : " Actively seeking a job as Software Developer",
+	"role" : "Software Developer",
 	"welcomeMessage" : "Graduating with Master in Computer Science from Georgia Institute of Technology December 2017.</br> Looking forward to a career with lots of coding.",
 	"image" : "images/headXu.jpg",
 	"contacts" : [{
@@ -164,4 +164,4 @@ education.display();
 bio.display();
 
 $("#main").append(internationalizeButton);
-$("#mapDiv").append(googleMap);
+$("#main").append(googleMap);
