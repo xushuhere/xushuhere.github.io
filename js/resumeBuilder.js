@@ -9,7 +9,7 @@ var bio = {
 		"email" : "xushuhere@gmail.com",
 		"github": "github.com/xushuhere"
 	}],
-	"skills" : ["Java","C++","Python","R", "Github", "JavaScript"]
+	"skills" : ["Java","Python","R", "PHP", "Github", "JavaScript"]
 };
 
 var work = {
