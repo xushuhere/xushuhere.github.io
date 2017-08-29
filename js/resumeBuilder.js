@@ -1,6 +1,6 @@
 var bio = {
 	"name" : "Shu XU",
-	"role" : "Software Developer",
+	"role" : "Actively seeking working opportunities",
 	"welcomeMessage" : "Graduating with Master in Computer Science from Georgia Institute of Technology December 2017.</br> Looking forward to a career with lots of coding.",
 	"image" : "images/headXu.jpg",
 	"contacts" : [{
