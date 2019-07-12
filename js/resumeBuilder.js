@@ -1,7 +1,7 @@
 var bio = {
 	"name" : "Shu XU",
-	"role" : "Actively seeking working opportunities",
-	"welcomeMessage" : "Graduating with Master in Computer Science from Georgia Institute of Technology December 2017.</br> Looking forward to a career with lots of coding.",
+	"role" : "Big Data Application Developer at Vanderbilt University Medical Center ",
+	"welcomeMessage" : "Master of Science in Computer Science from Georgia Institute of Technology December 2017.</br> Looking forward to a career with lots of coding.",
 	"image" : "images/headXu.jpg",
 	"contacts" : [{
 		"mobile" : "567-868-3827",
@@ -9,15 +9,22 @@ var bio = {
 		"email" : "xushuhere@gmail.com",
 		"github": "github.com/xushuhere"
 	}],
-	"skills" : ["Java","Python","R", "PHP", "Github", "JavaScript"]
+	"skills" : ["Java","Python","R", "SQL", "Github", "JavaScript"]
 };
 
 var work = {
 	"jobs" : [
+		{
+		"employer" : "Vanderbilt Univeristy Medical Center",
+		"title" : "Big Data Application Developer",
+		"dates" : "2017 - Present",
+		"location" : "Nashville",
+		"description" : "Leveraging Big Data in Healthcare and Building pipeline and Application in Vanderbilt and its colaborative network"
+	},
 	{
 		"employer" : "Vanderbilt Univeristy",
 		"title" : "Research Instructor",
-		"dates" : "2015 - present",
+		"dates" : "2015 - 2017",
 		"location" : "Nashville",
 		"description" : "Crystal Structure refinement and modeling using machine learning."
 	},
